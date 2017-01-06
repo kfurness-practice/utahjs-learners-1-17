@@ -4,7 +4,27 @@ This project is the first part of presentation on using stateless functional com
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
+#Changes
+
 Changed package.json:
 "test": ["react-scripts test --env=jsdo","jest"],
 to
 "test": "jest",
+
+#Deleted Files
+
+App.test.js errors when using ```$ npm test```
+
+import React from 'react';
+import ReactDOM from 'react-dom';
+import App from './App';
+import renderer from 'react-test-renderer';
+
+// import { sum } './App'
+
+
+
+it('renders without crashing', () => {
+  const div = document.createElement('div');
+  ReactDOM.render(<App />, div);
+});

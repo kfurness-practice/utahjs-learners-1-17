@@ -1,0 +1,11 @@
+exports[`test Link changes the class when hovered 1`] = `
+<div>
+  <a
+    className="normal"
+    href="http://www.facebook.com"
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}>
+    Facebook
+  </a>
+</div>
+`;
