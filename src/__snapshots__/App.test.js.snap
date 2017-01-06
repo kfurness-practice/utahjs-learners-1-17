@@ -1,0 +1,35 @@
+exports[`test Body snapshot test 1`] = `
+<div>
+  <h2>
+    This is the Body!!!!!!!!
+  </h2>
+  <h3>
+    More stuff will go here
+  </h3>
+</div>
+`;
+
+exports[`test Search snapshot test 1`] = `
+<div
+  className="App">
+  <div
+    className="App-header">
+    <h2>
+      To-Do Demo App
+    </h2>
+  </div>
+  <div>
+    <h2>
+      This is the Body!!!!!!!!
+    </h2>
+    <h3>
+      More stuff will go here
+    </h3>
+  </div>
+  <a
+    className="normal"
+    href="#"
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]} />
+</div>
+`;
